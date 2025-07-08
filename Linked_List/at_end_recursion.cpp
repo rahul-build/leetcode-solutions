@@ -42,3 +42,11 @@ int main()
     printList(Head);
     return 0;
 }
+// | Approach | Time Complexity | Space Complexity |
+//     | -- -- -- -- -| -- -- -- -- -- -- -- -| -- -- -- -- -- -- -- -- -|
+//     | Recursive | O(n) | O(n)(call stack) |
+//     | Iterative | O(n) | O(1) |
+// If asked in an interview :
+// “What’s the drawback of your recursive linked list function ?”
+
+//     "It uses O(n) stack space, which can lead to stack overflow for large inputs. An iterative solution avoids this and is preferred in production systems."
